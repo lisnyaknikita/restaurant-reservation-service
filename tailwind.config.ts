@@ -6,9 +6,14 @@ const config: Config = {
     extend: {
       colors: {
         'bg-color': '#252525',
+        primary: 'rgb(28 25 23)',
       },
       fontFamily: {
         'work-sans': 'Work Sans',
+      },
+      borderRadius: {
+        primary: '0.6rem',
+        button: '1.5rem',
       },
     },
   },
