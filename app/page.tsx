@@ -6,8 +6,10 @@ export default function Home() {
   return (
     <div className='min-h-screen min-w-ful'>
       <Header />
-      <FindBox />
-      <Cards />
+      <main>
+        <FindBox />
+        <Cards />
+      </main>
     </div>
   );
 }

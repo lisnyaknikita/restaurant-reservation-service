@@ -1,0 +1,22 @@
+.block1 {
+  @apply w-[680px] bg-orange-300 text-primary rounded-primary p-3;
+}
+
+.blockNavigation {
+}
+
+.navigationList {
+  @apply flex items-center gap-5 text-2xl font-normal pb-3 mb-5 border-b border-solid border-stone-600/20;
+}
+
+.restaurantName {
+  @apply font-bold text-5xl pb-5 border-b border-solid border-stone-600/20 mb-5;
+}
+
+.rating {
+  @apply flex items-center gap-8 mb-7;
+}
+
+.description {
+  @apply text-lg;
+}
