@@ -1,0 +1,31 @@
+.card {
+  @apply w-60 bg-orange-300 border border-orange-200 text-primary rounded-primary shadow shadow-orange-300 overflow-hidden;
+}
+
+.image {
+  @apply object-cover mb-2;
+}
+
+.content {
+  @apply px-2 pb-2;
+}
+
+.restaurantName {
+  @apply font-bold text-xl mb-2;
+}
+
+.rating {
+  @apply flex items-center gap-4 mb-2;
+}
+
+.reviewsLength {
+  @apply font-bold;
+}
+
+.info {
+  @apply flex items-center justify-between mb-4;
+}
+
+.booking {
+  @apply font-bold text-lg;
+}

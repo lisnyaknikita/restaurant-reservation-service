@@ -7,6 +7,7 @@ const config: Config = {
       colors: {
         'bg-color': '#252525',
         primary: 'rgb(28 25 23)',
+        'text-primary': 'rgb(255 237 213)',
       },
       fontFamily: {
         'work-sans': 'Work Sans',
