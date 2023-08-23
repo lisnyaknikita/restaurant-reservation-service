@@ -18,5 +18,49 @@
 }
 
 .description {
-  @apply text-lg;
+  @apply text-lg mb-10;
+}
+
+.photosTitle {
+  @apply text-2xl mb-7 font-bold;
+}
+
+.photos {
+  @apply flex gap-2 items-center flex-wrap justify-center mb-10;
+}
+
+.reviewsTitle {
+  @apply text-2xl mb-7 font-bold;
+}
+
+.reviewsList {
+  @apply flex flex-col items-center;
+}
+
+.reviewItem {
+  @apply flex gap-8 items-center;
+}
+
+.person {
+  @apply flex flex-col items-center;
+}
+
+.reviewItem + .reviewItem {
+  @apply mt-12;
+}
+
+.circle {
+  @apply flex items-center justify-center bg-slate-700 w-16 h-16 rounded-full text-orange-100 text-lg uppercase mb-2;
+}
+
+.personName {
+  @apply text-xl text-center text-primary;
+}
+
+.personStars {
+  @apply mb-3;
+}
+
+.personReview {
+  @apply text-base text-primary;
 }

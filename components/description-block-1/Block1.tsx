@@ -1,4 +1,5 @@
 import { FC } from 'react';
+import Image from 'next/image';
 
 import classes from './Block1.module.scss';
 
@@ -25,6 +26,59 @@ const Block1: FC = () => {
         Barrel cheese & wine is your new perfect favorite spot for a date night. Fireplace, wine racks, special cocktails and absolutely
         delicious food!
       </p>
+      <h3 className={classes.photosTitle}>5 photos</h3>
+      <div className={classes.photos}>
+        <Image className={classes.photoItem} src='/restaurant-image.webp' width={210} height={200} alt='Picture of the author' />
+        <Image className={classes.photoItem} src='/restaurant-image.webp' width={210} height={200} alt='Picture of the author' />
+        <Image className={classes.photoItem} src='/restaurant-image.webp' width={210} height={200} alt='Picture of the author' />
+        <Image className={classes.photoItem} src='/restaurant-image.webp' width={210} height={200} alt='Picture of the author' />
+        <Image className={classes.photoItem} src='/restaurant-image.webp' width={210} height={200} alt='Picture of the author' />
+      </div>
+      <h3 className={classes.reviewsTitle}>What are 2128 people saying</h3>
+      <ul className={classes.reviewsList}>
+        <li className={classes.reviewItem}>
+          <div className={classes.person}>
+            <div className={classes.circle}>JH</div>
+            <h5 className={classes.personName}>Jarad Higgins</h5>
+          </div>
+          <div className={classes.review}>
+            <p className={classes.personStars}>*****</p>
+            <p className={classes.personReview}>
+              We went for a birthday celebration. The waiter only periodical showed up. After dinner, we wanted to order dessert to further
+              the celebration but the waiter never returned! So we left. I simply didn’t expect that. That rather wiped out the reason we
+              went there in the first place.
+            </p>
+          </div>
+        </li>
+        <li className={classes.reviewItem}>
+          <div className={classes.person}>
+            <div className={classes.circle}>JH</div>
+            <h5 className={classes.personName}>Jarad Higgins</h5>
+          </div>
+          <div className={classes.review}>
+            <p className={classes.personStars}>*****</p>
+            <p className={classes.personReview}>
+              We went for a birthday celebration. The waiter only periodical showed up. After dinner, we wanted to order dessert to further
+              the celebration but the waiter never returned! So we left. I simply didn’t expect that. That rather wiped out the reason we
+              went there in the first place.
+            </p>
+          </div>
+        </li>
+        <li className={classes.reviewItem}>
+          <div className={classes.person}>
+            <div className={classes.circle}>JH</div>
+            <h5 className={classes.personName}>Jarad Higgins</h5>
+          </div>
+          <div className={classes.review}>
+            <p className={classes.personStars}>*****</p>
+            <p className={classes.personReview}>
+              We went for a birthday celebration. The waiter only periodical showed up. After dinner, we wanted to order dessert to further
+              the celebration but the waiter never returned! So we left. I simply didn’t expect that. That rather wiped out the reason we
+              went there in the first place.
+            </p>
+          </div>
+        </li>
+      </ul>
     </div>
   );
 };
