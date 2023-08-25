@@ -1,0 +1,35 @@
+.filtersInner {
+  @apply w-1/5 bg-orange-300 p-3 text-primary rounded-primary self-start;
+}
+
+.filter + .filter {
+  @apply mt-5;
+}
+
+.filterTitle {
+  @apply font-bold text-xl mb-3;
+}
+
+.filterItem {
+  @apply text-base;
+}
+
+.filterItem + .filterItem {
+  @apply mt-1;
+}
+
+.priceButtons {
+  @apply flex items-center;
+
+  button {
+    @apply p-2 border border-solid border-primary w-16 hover:bg-primary hover:text-orange-200 transition-colors;
+
+    &:first-child {
+      @apply border-r-0 rounded-l-primary;
+    }
+
+    &:last-child {
+      @apply border-l-0 rounded-r-primary;
+    }
+  }
+}

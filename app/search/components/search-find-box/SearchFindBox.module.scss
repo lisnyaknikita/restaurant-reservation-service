@@ -1,0 +1,15 @@
+.boxWrapper {
+  @apply max-w-[1400px] mx-auto rounded-primary bg-gradient-to-r from-orange-300 via-orange-400 to-orange-300 h-28 flex items-center justify-center;
+}
+
+.form {
+  @apply flex items-center gap-5;
+}
+
+.inputField {
+  @apply bg-orange-50 rounded-button py-4 px-5 w-96 text-xl tracking-wider text-primary placeholder:text-stone-400;
+}
+
+.button {
+  @apply py-4 px-5 text-primary rounded-button text-xl bg-orange-50 hover:bg-orange-100 hover:text-stone-950 transition-colors;
+}
