@@ -3,8 +3,8 @@ import type { Metadata } from 'next';
 import classes from './RestaurantDetailsPage.module.scss';
 
 import Header from '@/components/header/Header';
-import RestaurantName from '@/components/restaurant-name/RestaurantName';
-import RestaurantDescription from '@/components/restaurant-description/RestaurantDescription';
+import RestaurantName from '../components/restaurant-name/RestaurantName';
+import RestaurantDescription from '../components/restaurant-description/RestaurantDescription';
 
 export const metadata: Metadata = {
   title: 'Restaurant Details Page',

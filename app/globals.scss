@@ -7,3 +7,7 @@
 body {
   @apply min-h-screen min-w-full bg-bg-color text-text-primary font-work-sans;
 }
+
+input {
+  @apply border-none;
+}

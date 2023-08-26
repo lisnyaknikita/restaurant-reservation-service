@@ -1,6 +1,7 @@
 import { FC } from 'react';
 
 import classes from './RestaurantMenu.module.scss';
+import Link from 'next/link';
 
 const RestaurantMenu: FC = () => {
   return (
@@ -8,10 +9,10 @@ const RestaurantMenu: FC = () => {
       <nav className={classes.blockNavigation}>
         <ul className={classes.navigationList}>
           <li className={classes.navigationItem}>
-            <a href=''>Overview</a>
+            <Link href={'/restaurant/some-restaurant'}>Overview</Link>
           </li>
           <li className={classes.navigationItem}>
-            <a href=''>Menu</a>
+            <Link href={'/restaurant/some-restaurant/menu'}>Menu</Link>
           </li>
         </ul>
       </nav>

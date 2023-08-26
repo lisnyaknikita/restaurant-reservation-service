@@ -2,6 +2,7 @@ import { FC } from 'react';
 import Image from 'next/image';
 
 import classes from './Block1.module.scss';
+import Link from 'next/link';
 
 const Block1: FC = () => {
   return (
@@ -9,10 +10,10 @@ const Block1: FC = () => {
       <nav className={classes.blockNavigation}>
         <ul className={classes.navigationList}>
           <li className={classes.navigationItem}>
-            <a href=''>Overview</a>
+            <Link href={'/restaurant/some-restaurant'}>Overview</Link>
           </li>
           <li className={classes.navigationItem}>
-            <a href=''>Menu</a>
+            <Link href={'/restaurant/some-restaurant/menu'}>Menu</Link>
           </li>
         </ul>
       </nav>
