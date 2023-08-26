@@ -1,0 +1,15 @@
+.form {
+  @apply flex flex-wrap justify-between w-[800px];
+}
+
+.input {
+  @apply border rounded-primary py-4 px-5 w-2/5 mb-4 bg-orange-50 text-xl tracking-wider text-primary placeholder:text-stone-400;
+}
+
+.button {
+  @apply mt-3 text-primary border border-solid border-primary rounded-primary py-3 px-5 w-full hover:bg-primary hover:text-orange-200 transition-colors mb-2;
+}
+
+.agreement {
+  @apply text-sm text-center;
+}

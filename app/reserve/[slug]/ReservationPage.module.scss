@@ -1,0 +1,7 @@
+.reservationInner {
+  @apply mt-5 max-w-[1000px] mx-auto bg-orange-300 text-primary rounded-primary p-3 flex flex-col items-center;
+}
+
+.title {
+  @apply font-bold text-3xl mb-6;
+}

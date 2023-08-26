@@ -1,0 +1,47 @@
+.block2 {
+  @apply w-[410px] self-start bg-orange-300 text-primary rounded-primary p-3 sticky top-0;
+}
+
+.blockTitle {
+  @apply text-2xl font-normal pb-3 mb-5 border-b border-solid border-stone-600/20;
+}
+
+.partySize {
+  @apply mb-5 flex flex-col gap-3;
+
+  label {
+    @apply text-xl block;
+  }
+
+  select {
+    @apply py-3 px-2 bg-primary text-orange-100 rounded-primary;
+  }
+}
+
+.dateTime {
+  @apply flex gap-4 items-center justify-between mb-5;
+
+  label {
+    @apply text-xl self-start;
+  }
+}
+
+.date {
+  @apply flex flex-col gap-1 items-center w-[47%];
+
+  > input {
+    @apply py-1 px-2 bg-primary text-orange-100 rounded-primary w-full;
+  }
+}
+
+.time {
+  @apply flex flex-col items-center gap-1 w-[47%];
+
+  > select {
+    @apply py-1.5 px-2 bg-primary text-orange-100 rounded-primary w-full;
+  }
+}
+
+.button {
+  @apply w-full text-center text-xl py-3 px-3 rounded-primary bg-primary text-orange-100 hover:bg-black hover:text-orange-200 transition-colors;
+}
