@@ -6,8 +6,8 @@ import ReservedRestaurant from './components/reserved-restaurant/ReservedRestaur
 import ReservationForm from './components/reservation-form/ReservationForm';
 
 export const metadata: Metadata = {
-  title: 'Reservation Page',
-  description: 'Reservation Page',
+  title: 'RRS | Reserve | The Yacht Club',
+  description: 'The Yacht Club reservation Page',
 };
 
 export default function ReservationPage() {
