@@ -4,12 +4,9 @@ import Cards from './components/cards/Cards';
 
 export default function Home() {
   return (
-    <div className='min-h-screen min-w-ful'>
-      <Header />
-      <main>
-        <FindBox />
-        <Cards />
-      </main>
-    </div>
+    <>
+      <FindBox />
+      <Cards />
+    </>
   );
 }
