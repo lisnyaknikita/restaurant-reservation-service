@@ -1,5 +1,5 @@
 .card {
-  @apply w-60 bg-orange-300 border border-orange-200 text-primary rounded-primary shadow shadow-orange-300 overflow-hidden transition-transform hover:scale-105;
+  @apply w-[326px] bg-orange-300 border border-orange-200 text-primary rounded-primary shadow shadow-orange-300 overflow-hidden transition-transform hover:scale-105;
 }
 
 .image {
@@ -24,6 +24,14 @@
 
 .info {
   @apply flex items-center justify-between mb-4;
+}
+
+.cuisine {
+  @apply capitalize;
+}
+
+.city {
+  @apply capitalize;
 }
 
 .booking {
