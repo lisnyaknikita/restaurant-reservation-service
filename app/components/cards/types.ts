@@ -7,6 +7,7 @@ export interface ICard {
   cuisine: Cuisine;
   location: Location;
   price: PRICE;
+  slug: string;
 }
 
 export interface ICards {

@@ -7,10 +7,10 @@ export const metadata: Metadata = {
   description: 'The Yacht Club details page',
 };
 
-export default function RestaurantLayout({ children }: { children: React.ReactNode }) {
+export default function RestaurantLayout({ children, params }: { children: React.ReactNode; params: { slug: string } }) {
   return (
     <>
-      <RestaurantName />
+      <RestaurantName name={params.slug} />
       {children}
     </>
   );

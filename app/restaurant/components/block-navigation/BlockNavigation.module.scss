@@ -1,0 +1,6 @@
+.blockNavigation {
+}
+
+.navigationList {
+  @apply flex items-center gap-5 text-2xl font-normal pb-3 mb-5 border-b border-solid border-stone-600/20;
+}

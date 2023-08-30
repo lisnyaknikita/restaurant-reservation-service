@@ -1,0 +1,7 @@
+.photosTitle {
+  @apply text-2xl mb-7 font-bold;
+}
+
+.photos {
+  @apply flex gap-2 items-center flex-wrap justify-start mb-10;
+}

@@ -14,6 +14,7 @@ const fetchRestaurants = async (): Promise<ICard[]> => {
       cuisine: true,
       location: true,
       price: true,
+      slug: true,
     },
   });
 
