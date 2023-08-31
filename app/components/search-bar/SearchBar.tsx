@@ -1,5 +1,5 @@
 'use client';
-import { FC, useState } from 'react';
+import { FC, FormEvent, useState } from 'react';
 
 import classes from './SearchBar.module.scss';
 
@@ -10,15 +10,17 @@ const SearchBar: FC = () => {
 
   const [location, setLocation] = useState('');
 
+  const handleSearch = (e: FormEvent) => {
+    e.preventDefault();
+    if (!location.length) return;
+    router.push(`/search?city=${location}`);
+    setLocation('');
+  };
+
+  //TODO: сделать общий компонент блока с поиском и на главной странице, и на странице поиска, но в зависимости от пропсов добавлять/удалять заголовок
+
   return (
-    <form
-      className={classes.form}
-      onSubmit={(e) => {
-        e.preventDefault();
-        if (location === 'banana') return;
-        router.push('/search');
-      }}
-    >
+    <form className={classes.form} onSubmit={handleSearch}>
       <input
         className={classes.inputField}
         type='text'
